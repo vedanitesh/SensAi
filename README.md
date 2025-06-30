@@ -68,13 +68,13 @@ npm run dev
 ## 📸 Screenshots
 
 ### 📝 Resume Builder
-![Resume Builder]("./Screenshot 2025-06-30 110701.png")
+![Resume Builder]("./resume-builder.png")
 
 ### 📈 Weekly Industry Insights
-![Weekly Industry Insights]("./Screenshot 2025-06-30 110747.png")
+![Weekly Industry Insights]("./weekly-insights.png")
 
 ### ✉️ AI Cover Letter Generator
-![Cover Letter]("./Screenshot 2025-06-30 110822.png")
+![Cover Letter]("./cover-letter.png")
 
 
 ## 🙋‍♀️ Author
