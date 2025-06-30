@@ -66,9 +66,16 @@ npm run dev
 
 
 ## 📸 Screenshots
+
 ### 📝 Resume Builder
+![Resume Builder]("./Screenshot 2025-06-30 110701.png")
+
 ### 📈 Weekly Industry Insights
+![Weekly Industry Insights]("./Screenshot 2025-06-30 110747.png")
+
 ### ✉️ AI Cover Letter Generator
+![Cover Letter]("./Screenshot 2025-06-30 110822.png")
+
 
 ## 🙋‍♀️ Author
 Made with ❤️ by Veda Bhadane
