@@ -1,40 +1,80 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 SensAi
 
-## Getting Started
+**SensAi** is an AI-powered platform designed to help users accelerate their job search with intelligent tools. From crafting tailored resumes and cover letters to preparing for interviews and receiving weekly industry insights, SensAi brings together the power of AI and modern web technologies.
 
-First, run the development server:
+---
+
+## 🧠 Features
+
+- 📝 **AI Resume Builder**  
+  Generate professional, role-specific resumes with smart AI suggestions.
+
+- ✉️ **AI Cover Letter Generator**  
+  Instantly create personalized, impactful cover letters.
+
+- 🎯 **AI Interview Preparation**  
+  Access AI-curated questions and advice tailored to your target industry or role.
+
+- 📊 **Weekly Industry Insights**  
+  Receive weekly updates about the industry you selected at registration — trends, news, and analytics.
+
+- 🔐 **Authentication & User Management with Clerk**  
+  Secure sign-up, sign-in, and user session handling with Clerk integration.
+
+- ⚡ **Event-Driven Workflows with Inngest**  
+  Scheduled tasks like sending weekly insights are powered by Inngest’s event-driven architecture.
+
+- 🗄️ **Cloud Database with Neon**  
+  Scalable, serverless PostgreSQL used for storing user data, content, and insights.
+
+- 🎨 **Beautiful UI with shadcn/ui**  
+  Built with accessible, customizable components powered by Tailwind CSS and shadcn/ui.
+
+---
+
+## ⚙️ Tech Stack
+
+| Layer           | Tech / Service                   |
+|----------------|----------------------------------|
+| Frontend       | **Next.js**, **React**, **Tailwind CSS**, **shadcn/ui** |
+| Backend        | **Node.js**, **Inngest**, **Clerk** |
+| Authentication | **Clerk.dev**                    |
+| Database       | **Neon (PostgreSQL)**            |
+| AI Integration | **OpenAI API / LangChain (if used)** |
+| Deployment     | **Vercel**                       |
+| CI/CD & Hosting| GitHub + Vercel                  |
+
+---
+
+## 📦 Installation & Setup
 
 ```bash
+# Clone the repository
+git clone https://github.com/vedanitesh/SensAi.git
+cd SensAi
+
+# Install dependencies
+npm install
+
+# Set up environment variables (e.g., .env.local)
+cp .env.example .env.local
+# Add your Clerk, Inngest, Neon, OpenAI keys
+
+# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📸 Screenshots
+### 📝 Resume Builder
+### 📈 Weekly Industry Insights
+### ✉️ AI Cover Letter Generator
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🙋‍♀️ Author
+Made with ❤️ by Veda Bhadane
+Feel free to explore, contribute, and connect!
 
-## Learn More
+##📄 License
+Licensed under the MIT License.
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# SENSAI
->>>>>>> 828d7a2ef0e20bf58bfec43534f4429fe6811235
